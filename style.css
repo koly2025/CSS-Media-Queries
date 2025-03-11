@@ -1,0 +1,36 @@
+/* Default styling for large screens */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+    .container {
+        width: 90%;
+        background-color: skyblue;
+    }
+}
+
+/* For mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+    body {
+        background-color: lightcoral;
+    }
+    .container {
+        width: 100%;
+        background-color: tomato;
+    }
+}
